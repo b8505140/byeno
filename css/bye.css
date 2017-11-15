@@ -1,0 +1,234 @@
+body{
+  background-color: #c97777;
+  width: 1330px;
+  margin: 0;
+  position: absolute;
+  left: calc(50% - 665px);
+}
+.container{
+  width: 980px;
+  padding: 0;
+  margin: 0 175px;
+  text-align: center;
+  font-family: Agency FB;
+}
+header{
+  width: 980px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+  /*background-color: #5C7F7D;*/
+  /*position: fixed;*/
+  /*background-image: url(../img/header_bg.png);
+  z-index: 100;*/
+}
+.menu{
+  /*display: inline;*/
+  /*display: flex;
+  justify-content: space-between;*/
+  width: 980px;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.nav{
+  /*display: inline;*/
+  display: flex;
+  justify-content: space-around;
+  width: 980px;
+  margin-bottom: 50px;;
+  padding-left: 0;
+}
+header ul li{
+  width: 163px;
+  background-color:#e9ebee;
+  list-style-type: none;
+  font-size: 40px;
+  font-weight: bold;
+  color: #439a86;
+  /*float: right;*/
+  border: 3px solid #439a86;
+  border-radius: 10px;
+  margin-top: 100px;
+  /*padding: 5px;
+  padding-top: 5px;*/
+  height: 50px;
+  box-shadow: 1px 2px 3px #686868;
+  display: list-item;
+  text-shadow: 2px 2px #afafaf;
+}
+li:hover{
+  font-size: 45px;
+  box-shadow: 5px 5px 5px #656060;
+}
+.spaceb {
+  margin-right: 100px;
+}
+
+.spacea {
+  margin-left: 160px;
+}
+
+.logo img {
+  background-color: #82B4B1;
+  border-radius: 50%;
+  position: absolute;
+  top:10px;
+  left: calc(50% - 90px);
+  z-index: 1;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.clear:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.main_pic{
+  width: 1330px;
+  height: 728px;
+  border: 3px solid #343434;
+  /*background-color: #82B4B1;*/
+  margin-left: -175px;
+}
+.title{
+  color: #439a86;
+  font-size: 72px;
+  font-weight: bold;
+  text-shadow: 2px 2px #383636;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.profile{
+  width: 1330px;
+  border: 3px solid #343434;
+  background-color: #82B4B1;
+  margin-left: -175px;
+}
+.introduction{
+  width: 980px;
+  margin-left: 175px;
+  display: flex;
+  justify-content: space-around;
+  /*float: left;*/
+}
+.bio{
+  width: 480px;
+  height: 600px;
+}
+
+.skill{
+  width: 1330px;
+  height: 800px;
+  background-color: #DA815E;
+  margin-left: -175px;
+  padding-bottom: 20px;
+  border: 3px solid #343434;
+}
+.skill_single{
+  width: 980px;
+  height: 500px;
+  margin-left: 175px;
+  display: flex;
+  justify-content: space-between;
+}
+.detail h2{
+  font-size: 30px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-decoration:underline;
+}
+.detail p{
+  font-size: 14px;
+  max-width: 230px;
+  font-weight: 900;
+  line-height: 1.7em;
+  font-family: Microsoft JhengHei;
+  background-color: rgba(201, 201, 201,0.5);
+}
+
+/*.bio {
+  font-weight: bold;
+  margin-top: 5px;
+}*/
+.bio h1{
+  font-size: 45px;
+  color:#404040;
+  text-shadow: 2px 2px #969494;
+}
+.bio p {
+  font-size: 20px;
+  line-height: 1.7em;
+  font-family: Microsoft JhengHei;
+  font-weight: 900;
+  color:#404040;
+
+}
+.detail {
+  opacity: 0.6;
+}
+.detail:hover{
+  opacity: 1;
+}
+.portfolio{
+  width: 1330px;
+  background-color: #c9c9c9;
+  margin-left: -175px;
+  border: 3px solid #343434;
+}
+.portfolio p{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.work{
+  width: 980px;
+  height: 500px;
+  margin-left: 175px;
+}
+.work img{
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+  margin: 10px 10px;
+  box-shadow: 3px 3px 4px #686868;
+  opacity: 0.6;
+}
+.work img:hover{
+  opacity: 1;
+  box-shadow: 6px 6px 3px #435c9a;
+  /*width: 300px;
+  height: 300px;*/
+}
+
+.contact{
+  background-color: #606366;
+  width: 1330px;
+  margin-left: -175px;
+  border: 3px solid #343434;
+  color: #ffffff;
+  height: 400px;
+}
+.contact .information{
+  font-size: 20px;
+  line-height: 1.7em;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 175px;
+  width: 40%;
+  margin-right: 0;
+  display: block;
+}
+.down{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.form{
+  font-size: 20px;
+  text-align: left;
+  line-height: 2.9em;
+  font-weight: bold;
+  /*padding-top: 17px;*/
+}
